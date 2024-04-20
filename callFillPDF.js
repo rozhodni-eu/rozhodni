@@ -7,8 +7,7 @@
     fetch(apiUrl, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
-        'key': apiKey
+        'Content-Type': 'application/json'
       },
       body: jsonString
     })
